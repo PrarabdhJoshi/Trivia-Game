@@ -43,3 +43,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added mongoid gem
 gem 'mongoid', '~> 6.1.0'
+
+# Sematic UI GEM
+gem 'semantic-ui-sass'
