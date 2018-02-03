@@ -46,3 +46,6 @@ gem 'mongoid', '~> 6.1.0'
 
 # Sematic UI GEM
 gem 'semantic-ui-sass'
+
+# Materialize 
+gem 'materialize-sass'

@@ -1,3 +1,16 @@
 // $font-url: "https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Risque" rel="stylesheet";
 
-@import "semantic-ui";
+@import "materialize/components/color";
+$primary-color: color("white", "lighten-2") !default;
+$secondary-color: color("red", "base") !default;
+@import "materialize";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+ }
