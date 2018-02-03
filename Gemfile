@@ -49,3 +49,6 @@ gem 'semantic-ui-sass'
 
 # Materialize 
 gem 'materialize-sass'
+
+#add omniauth for github
+gem 'omniauth-github'
