@@ -3,6 +3,12 @@ Rails.application.routes.draw do
 
 
 
+  get 'welcome/add'
+
+  get 'welcome/play'
+
+  get 'welcome/scores'
+
   root 'home#index'
 
   get 'home/index'
