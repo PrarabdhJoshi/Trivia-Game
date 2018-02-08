@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
-  
 
-
-
-  get 'welcome/add'
+  get 'welcome/add', :as=>'add_question'
 
   get 'welcome/play'
 
-  get 'welcome/scores'
+  get 'welcome/scores', :as=>'view_scores'
 
   root 'home#index'
 

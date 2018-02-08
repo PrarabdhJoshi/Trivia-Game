@@ -5,7 +5,7 @@ class SessionController < ApplicationController
       user.name = auth_hash[:info][:name]
   end
   session[:user_id] = user.id
-  redirect_to :posts_index 
+  redirect_to :welcome_play 
 end
   def destroy
     reset_session
